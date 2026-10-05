@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tableau blanc</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="board">
+
+  <section class="panel">
+    <div class="scroll">
+    <svg class="g1" viewBox="0 0 560 540" role="img" aria-label="Entité supérieure, error system, six bulles dans un seul lieu">
+      <defs>
+        <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+          <path class="ah" d="M0,0 L10,5 L0,10 z"/>
+        </marker>
+      </defs>
+
+      <g transform="translate(62,0)">
+      <!-- Entité supérieure (nuage) -->
+      <path class="s" d="M70,95 q-28,-6 -18,-32 q-6,-26 24,-24 q10,-24 38,-12 q18,-20 40,-4 q26,-10 34,14 q26,4 16,30 q12,24 -18,28 q-10,18 -34,8 q-18,16 -38,2 q-26,10 -44,-10z"/>
+      <text x="138" y="62" text-anchor="middle">Entité</text>
+      <text x="138" y="90" text-anchor="middle">supérieure</text>
+
+      </g>
+      <!-- ERROR SYSTEM -->
+      <text class="sm" x="318" y="92">ERROR</text>
+      <text class="sm" x="318" y="111">SYSTEM ⚡</text>
+      <path class="s" d="M350,122 C340,150 300,166 262,186" marker-end="url(#a)"/>
+
+      <!-- Grand cercle et six bulles -->
+      <circle class="s" cx="200" cy="300" r="122"/>
+      <g>
+        <ellipse class="s d" cx="165" cy="232" rx="46" ry="30"/>
+        <ellipse class="s d" cx="250" cy="250" rx="44" ry="32"/>
+        <ellipse class="s d" cx="132" cy="296" rx="44" ry="30"/>
+        <ellipse class="s d" cx="210" cy="306" rx="42" ry="32"/>
+        <ellipse class="s d" cx="152" cy="356" rx="46" ry="30"/>
+        <ellipse class="s d" cx="240" cy="376" rx="44" ry="28"/>
+        <rect class="s" x="143" y="217" width="44" height="30" rx="5"/><text x="165" y="241" text-anchor="middle">1</text>
+        <rect class="s" x="228" y="235" width="44" height="30" rx="5"/><text x="250" y="259" text-anchor="middle">2</text>
+        <rect class="s" x="110" y="281" width="44" height="30" rx="5"/><text x="132" y="305" text-anchor="middle">3</text>
+        <rect class="s" x="188" y="291" width="44" height="30" rx="5"/><text x="210" y="315" text-anchor="middle">4</text>
+        <rect class="s" x="130" y="341" width="44" height="30" rx="5"/><text x="152" y="365" text-anchor="middle">5</text>
+        <rect class="s" x="218" y="361" width="44" height="30" rx="5"/><text x="240" y="385" text-anchor="middle">6</text>
+      </g>
+
+      <!-- un seul lieu ou plusieurs lieux -->
+      <ellipse class="s" cx="362" cy="300" rx="34" ry="50"/>
+      <text x="362" y="278" text-anchor="middle" font-size="23">un</text>
+      <text x="362" y="304" text-anchor="middle" font-size="23">seul</text>
+      <text x="362" y="330" text-anchor="middle" font-size="23">lieu</text>
+      <text x="412" y="308" text-anchor="middle">ou</text>
+      <text x="490" y="296" text-anchor="middle">plusieurs</text>
+      <text x="490" y="322" text-anchor="middle">lieux</text>
+      <path class="s" d="M440,292 L540,284 M452,318 L530,312"/>
+
+      <!-- Flèche de l'entité vers la rangée -->
+      <path class="s" d="M124,106 C30,200 4,400 34,478" marker-end="url(#a)"/>
+      <g transform="translate(-11,0)">
+      <rect class="s" x="52" y="462" width="318" height="56" rx="8"/>
+      <g>
+        <rect class="s" x="66"  y="474" width="38" height="32" rx="5"/><text x="85"  y="499" text-anchor="middle">1</text>
+        <rect class="s" x="116" y="474" width="38" height="32" rx="5"/><text x="135" y="499" text-anchor="middle">2</text>
+        <rect class="s" x="166" y="474" width="38" height="32" rx="5"/><text x="185" y="499" text-anchor="middle">3</text>
+        <rect class="s" x="216" y="474" width="38" height="32" rx="5"/><text x="235" y="499" text-anchor="middle">4</text>
+        <rect class="s" x="266" y="474" width="38" height="32" rx="5"/><text x="285" y="499" text-anchor="middle">5</text>
+        <rect class="s" x="316" y="474" width="38" height="32" rx="5"/><text x="335" y="499" text-anchor="middle">6</text>
+      </g>
+
+      </g>
+    </svg>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="scroll">
+    <svg class="g2" viewBox="465 100 395 260" role="img" aria-label="Grille Temps, Méthode, Cible, Intention">
+      <defs>
+        <marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+          <path class="ah" d="M0,0 L10,5 L0,10 z"/>
+        </marker>
+      </defs>
+      <path class="s" d="M480,178 L845,178 M662,108 L662,262"/>
+      <text class="big" x="560" y="160" text-anchor="middle">Temps</text>
+      <path class="s" d="M618,152 L646,152" marker-end="url(#b)"/>
+      <text class="big" x="753" y="160" text-anchor="middle">Méthode</text>
+      <path class="s" d="M690,150 L818,140 M694,160 L814,152"/>
+      <text class="big" x="571" y="232" text-anchor="middle">Cible</text>
+      <text class="big" x="753" y="232" text-anchor="middle">Intention</text>
+      <path class="s" d="M501,258 L641,258"/>
+      <path class="s" d="M571,262 L571,292" marker-end="url(#b)"/>
+      <path class="s" d="M753,250 L753,292" marker-end="url(#b)"/>
+      <rect class="s" x="697" y="300" width="112" height="44" rx="5"/>
+      <text x="753" y="331" text-anchor="middle">Comédie</text>
+    </svg>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="multi">Multi Temporelle</div>
+
+    <div class="rows">
+      <div class="l">avec sa théière →</div>
+      <div class="m"><span class="n">1</span>Victorienne</div>
+      <div class="r">→ vieille femme → initiatrice du féminisme</div>
+
+      <div class="l">fait le feu à l'apparit. ←</div>
+      <div class="m"><span class="n">2</span>Préhistoire</div>
+      <div class="r">→ génie (Socrate) → enfant, on lui montre le feu</div>
+
+      <div class="l">en train de conduire ←</div>
+      <div class="m"><span class="n">3</span>Présent</div>
+      <div class="r">→ lambda</div>
+
+      <div class="l"></div>
+      <div class="m cene">( La Cène ⚠ ⚠ )</div>
+      <div class="r">↶ (à inclure)</div>
+
+      <div class="l">Arthur ↔</div>
+      <div class="m"><span class="n">4</span>Kaamelott</div>
+      <div class="r">→ sur les toilettes<br>→ chevalier dépressif</div>
+
+      <div class="l">Terminator ↔</div>
+      <div class="m"><span class="n">5</span>Idiocratie</div>
+      <div class="r">→ <span class="bar">45 ans<br>Kelly Diot</span></div>
+
+      <div class="l">Vient d'une époque sans humain ↔<br>(bien après la guerre)</div>
+      <div class="m"><span class="n">6</span>Robot Stupide</div>
+      <div class="r">→ Apocalypse des robots<span class="sub">plus de carte mémoire</span></div>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
