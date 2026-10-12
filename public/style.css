@@ -8,6 +8,7 @@
 }
 :root[data-theme="dark"]{ --wall:#121416; --board:#1e2124; --seam:#34393d; --ink:#ff8177; --frame:#3d4347; }
 *,*::before,*::after{box-sizing:inherit}
+a,a:visited{color:inherit;text-decoration:none}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--wall);color:var(--ink);
   font-family:"Caveat","Segoe Print","Bradley Hand","Comic Sans MS",cursive;font-weight:500;font-size:1.45rem;line-height:1.15}
