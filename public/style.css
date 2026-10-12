@@ -84,3 +84,8 @@ h1.title{margin:.2rem 0 1.2rem;font-size:clamp(2.4rem,8vw,3.6rem);font-weight:70
   .meta{grid-template-columns:1fr;gap:.1rem}
   .meta dt{text-align:left;margin-top:.7rem}
 }
+
+/* ---- fiches personnages ---- */
+.scene-head .n{font-size:.6em;vertical-align:middle}
+.roles .role a{color:inherit;text-decoration:none}
+.roles .role a:hover,.roles .role a:focus-visible{text-decoration:underline}
